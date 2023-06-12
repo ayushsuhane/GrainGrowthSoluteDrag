@@ -1,0 +1,45 @@
+dim : 2
+nx : 500
+ny : 500
+nz : 1
+dx : 5e-7
+m0 : 5e-11
+qm : 0      
+d0 : 1e-15
+qd : 0
+gbenergy : 1.0
+gbpoints : 4
+totaltime : 1e+4   
+beta : 0.00
+temperature : 1073.0
+bc : 1
+ngrainsmax : 8
+ngrainscontrol : 1
+averageradius : 10 
+ngrainsinit : 100000
+ngrainsor : 5000
+cinit : 1e-6
+vf : 0.6
+flag_geometry : 5
+seed : 923
+flag_curvature : 0
+flag_anisotropy : 0
+flag_e0anisotropy : 4
+flag_sd : 0
+flag_tt : 0
+mob_ratio : 1
+mu_anisotropy : 0.0
+sigma_anisotropy : 4500
+dEpct : 0.0
+mu_e0anisotropy : 32.2 42.0 49.0 70.0 
+sigma_e0anisotropy : 4500
+readfromrestart : 0
+writetorestart : 0
+kdt : 1e-1
+toutput : 1000
+tprint : 100
+tcheckpoint : 2000
+E0 : 0.01 20.0 40.0 60.0
+delta : 1e-9 4e-10 5e-10 8e-10
+Vm : 9.55e-6
+NUM_THREADS : 1
